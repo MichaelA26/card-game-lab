@@ -24,9 +24,10 @@ public class Deck {
                     deck.add(card);
                 }
             }
-            System.out.println(deck);
             Collections.shuffle(deck);
-            System.out.println(deck);
-
         }
+
+    public void dealCard() {
+        deck.remove(0);
+    }
 }
